@@ -1,0 +1,27 @@
+{
+  "name": "promulgate",
+  "version": "1.0.0",
+  "description": "An npm publish stream.",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "install": "npm run compile",
+    "test": "npm run compile && 6to5-node test/harness.js test/**/*-test.js",
+    "start": "npm run compile && node server.js",
+    "compile": "6to5 --optional selfContained --modules common --out-dir dist index.js"
+  },
+  "author": "Erik Toth <totherik@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "6to5": "^3.3.4",
+    "6to5-runtime": "^3.3.4",
+    "wreck": "^5.1.0"
+  },
+  "devDependencies": {
+    "glob": "^4.3.5",
+    "tape": "^3.5.0",
+    "through2": "^0.6.3"
+  }
+}
