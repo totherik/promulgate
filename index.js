@@ -146,7 +146,7 @@ export default class Promulgate extends Readable {
             // Remove any already visited records and create a new
             // store of current records for the next update.
             let current = {};
-            rows = rows.filter((row) => {
+            rows = rows.filter(row => {
                 let { id, key: rev } = row;
                 let key = id + rev;
 
