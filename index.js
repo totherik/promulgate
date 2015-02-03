@@ -14,7 +14,7 @@ const URL = {
 };
 
 
-export default class Couch extends Readable {
+export default class Promulgate extends Readable {
 
     constructor(host = HOST, interval = INTERVAL) {
         Readable.call(this, { objectMode: true });
@@ -30,7 +30,7 @@ export default class Couch extends Readable {
     }
 
     static createReadStream() {
-        return new Couch(...arguments);
+        return new Promulgate(...arguments);
     }
 
     close() {
