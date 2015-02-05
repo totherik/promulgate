@@ -1,6 +1,6 @@
 {
   "name": "promulgate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An npm publish stream.",
   "main": "dist/index.js",
   "directories": {
