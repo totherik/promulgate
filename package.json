@@ -14,11 +14,11 @@
   "author": "Erik Toth <totherik@gmail.com>",
   "license": "ISC",
   "dependencies": {
+	"6to5-runtime": "^3.3.4",
     "wreck": "^5.1.0"
   },
   "devDependencies": {
     "6to5": "^3.3.4",
-    "6to5-runtime": "^3.3.4",
     "glob": "^4.3.5",
     "tape": "^3.5.0",
     "through2": "^0.6.3"
