@@ -1,6 +1,6 @@
 {
   "name": "promulgate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An npm publish stream.",
   "main": "dist/index.js",
   "directories": {
@@ -14,7 +14,7 @@
   "author": "Erik Toth <totherik@gmail.com>",
   "license": "ISC",
   "dependencies": {
-	"6to5-runtime": "^3.3.4",
+    "6to5-runtime": "^3.3.4",
     "wreck": "^5.1.0"
   },
   "devDependencies": {
